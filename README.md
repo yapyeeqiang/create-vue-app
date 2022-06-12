@@ -1,40 +1,32 @@
-# create-vue-app
+# Create Vue App ⚡
 
-This template should help get you started developing with Vue 3 in Vite.
+![Vite, Vue, Tailwind CSS, Pinia](https://user-images.githubusercontent.com/63979210/135714099-347fc9f1-88f7-451b-a974-0ba225180dd1.png)
 
-## Recommended IDE Setup
+This starter template includes:
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+-   [Vite](https://vitejs.dev/) - Next Generation Frontend Tooling
+-   [Vue 3](https://v3.vuejs.org/)
+-   [Vue Router 4.x](https://next.router.vuejs.org/)
+-   [Pinia](https://pinia.esm.dev/) - The Vue Store that you will enjoy using
+-   [Tailwind CSS + JIT Mode](https://tailwindcss.com/) - Rapidly build modern
+    websites without ever leaving your HTML.
+-   [Headless UI](https://headlessui.dev/) - Completely unstyled, fully accessible
+    UI components, designed to integrate beautifully with Tailwind CSS.
+-   [Heroicons](https://heroicons.com/) - Beautiful hand-crafted SVG icons, by the
+    makers of Tailwind CSS.
 
-## Type Support for `.vue` Imports in TS
+Additional plugins you might need to build Tailwind UIs
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+-   [Tailwind CSS Forms](https://github.com/tailwindlabs/tailwindcss-forms)
+-   [Tailwind CSS Typography](https://github.com/tailwindlabs/tailwindcss-typography)
+-   [Tailwind CSS Line Clamp](https://github.com/tailwindlabs/tailwindcss-line-clamp)
+-   [Taliwind CSS Aspect Ratio](https://github.com/tailwindlabs/tailwindcss-aspect-ratio)
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+### Getting Started 🚀
 
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+```
+npx create-vue-app my-app
+cd my-app
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
 npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
 ```
